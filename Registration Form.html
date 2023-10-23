@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+
+    <h1>Register Now!</h1>
+
+    <form>
+        <label for="Name">First Name:</label>
+        <input id="Name" name="First Name" type="name" required>
+        <label for="Last Name">Last Name:</label>
+        <input id="Last Name" name="Last Name" type="lastname" required>
+        <br>
+        
+        <h3>Gender</h3>
+        <label for="radio-choice1">Female:</label>
+        <input type="radio" name="radio-choice" id="radio-choice" value="choice1"/>
+        <label for="radio-choice2">Male:</label>
+        <input type="radio" name="radio-choice" id="radio-choice" value="choice2"/>
+        <label for="radio-choice3">LGBTIQ+:</label>
+        <input type="radio" name="radio-choice" id="radio-choice" value="choice3"/>
+
+        <h3>Please enter your email</h3>
+        <label for="Email">Email:</label>
+        <input id="Email" name="Email" type="email" required>
+        <label for="Password">Password:</label>
+        <input id="Password" name="Password" type="password"  maxlength="10"  minlength="5"required>
+
+        <br>
+        <br>
+        <label for="selectchoice">Birthday:</label>
+        <select name="select-choice" id="select-choice">
+            <option value="0" selected disabled>Month</option>
+            <option value="january">Jan</option>
+            <option value="february">Feb</option>
+            <option value="march">Mar</option>
+            <option value="april">Apr</option>
+
+        </select>
+              <select name="select-choice" id="select-choice">
+                <option value="0" selected disabled>Date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+
+              </select>
+                <select name="select-choice" id="select-choice">
+                    <option value="0" selected disabled>Year</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                </select>
+            <br>
+            <br>
+                <label for="termsAndConditions">I agree to the terms and conditions </label>
+                <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted">
+            <br>
+            <br>
+                <input type="submit">
+               
+       
+
+
+
+
+    </form>
+    
+    
+</body>
+</html>
